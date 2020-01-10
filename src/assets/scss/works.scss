@@ -1,0 +1,44 @@
+@import "theme";
+@import "break-points";
+
+.works{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.workItems {
+  cursor: pointer;
+  width: calc(25% - 1px);
+  height: auto;
+  overflow: hidden;
+  margin: .5px;
+  position: relative;
+}
+
+.worksExchange :hover{
+  transition: .35s;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  background: rgba(232,69,69,.9);
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.workItems>img{
+
+}
+
+h5 {
+   color: white;
+  padding: 5px;
+ }
+
+ p {
+  color: white;
+  padding: 5px;
+}

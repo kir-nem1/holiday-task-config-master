@@ -1,0 +1,85 @@
+@import "theme";
+@import "break-points";
+
+#pageHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  height: 750px;
+  background-image: url("https://xom9lk1.github.io/assets/images/banner.jpg");
+  background-size: cover;
+  background-position: 50%;
+  top: 200px;
+
+}
+  .header-content {
+    width: 100%;
+    position: relative;
+    top: 0;
+    padding: 40px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1170px;
+  }
+
+  .header-content {
+    border-bottom: 0;
+    padding: 25px 0;
+    border-bottom: 1px solid hsla(0,0%,100%,.15);
+  }
+
+ .header-nav {
+    float: right;
+
+    li {
+      display: inline-block;
+    }
+
+    a {
+      color: white;
+      font-weight: bold;
+      margin-left: 40px;
+      text-transform: uppercase;
+    }
+  }
+
+ .textContainer {
+   max-width: 1170px;
+   margin-top: 80px;
+ }
+ h1, h3{
+   color: white;
+ }
+ .text2{
+   font-size: 22px;
+   line-height: 1.5;
+ }
+
+ .text{
+   font-size: 65px;
+   font-family: Open Sans,sans-serif;
+   font-weight: 700;
+   line-height: 1.1;
+   margin-bottom: 8px;
+   text-transform: uppercase;
+ }
+
+.bottom{
+  cursor: pointer;
+  font-family: Open Sans,sans-serif;
+  color: white;
+  font-weight: 600;
+  font-size: 13px;
+  border-radius: 3px;
+  display: inline-block;
+  padding: 18px 39px;
+  background: #e84545;
+  transition: background .2s;
+  margin-top: 80px;
+}
